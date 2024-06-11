@@ -12,7 +12,7 @@ export default function Player({
   function handleEditClick() {
     setIsEditing((editing) => !editing);
     if (isEditing) {
-      onChangeName(mark, playerName);
+      onChangeName(symbol, playerName);
     }
   }
 
@@ -30,7 +30,7 @@ export default function Player({
         required
         onChange={handleChangePlayerName}
       />
-    );®
+    );
   }
 
   return (

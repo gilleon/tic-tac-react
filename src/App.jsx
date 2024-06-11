@@ -96,6 +96,7 @@ function App() {
             initialName="Ama"
             symbol="O"
             isActive={activePlayer === "O"}
+            onChangeName={handlePlayerNameChange}
           />
         </ol>
         {(winner || hasDraw) && (
